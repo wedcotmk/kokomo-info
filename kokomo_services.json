@@ -1,0 +1,793 @@
+{
+  "version": "0.2.0",
+  "generated_at": "2026-02-10T00:00:00Z",
+  "source_notes": "Starter civic/service directory for Kokomo / Howard County with action links added.",
+  "entries": [
+    {
+      "id": "kokomo-mayors-office",
+      "name": "Mayor’s Office (City of Kokomo)",
+      "entity_type": "government",
+      "org": "City of Kokomo",
+      "categories": ["city-government", "mayor", "general-help"],
+      "tags": ["mayor", "city hall", "complaint", "question", "city services", "mayors office", "city official"],
+      "summary": "General city leadership office for city-wide questions and direction to departments.",
+      "contact": {
+        "phone_primary": "765-456-7444",
+        "email": "mayor@cityofkokomo.org",
+        "address": "100 S Union St, Kokomo, IN 46901"
+      },
+      "links": [
+        {
+          "label": "Mayor's Office Website",
+          "url": "https://www.cityofkokomo.org/departments/mayor_s_office/index.php",
+          "type": "info"
+        }
+      ],
+      "priority": 90
+    },
+    {
+      "id": "kokomo-city-clerk",
+      "name": "City Clerk (City of Kokomo)",
+      "entity_type": "government",
+      "org": "City of Kokomo",
+      "categories": ["city-government", "records", "clerk"],
+      "tags": ["city clerk", "ordinances", "minutes", "records"],
+      "summary": "City clerk office for records, ordinances, and council materials.",
+      "contact": {
+        "phone_primary": "765-456-7370",
+        "address": "100 S Union St, Kokomo, IN 46901",
+        "email": "cityclerk@cityofkokomo.org"
+      },
+      "links": [
+        {
+          "label": "City Clerk Page",
+          "url": "https://www.cityofkokomo.org/departments/city_clerk/index.php",
+          "type": "info"
+        }
+      ],
+      "priority": 70
+    },
+    {
+      "id": "kokomo-city-attorney",
+      "name": "Office of Corporation Counsel (City Attorney)",
+      "entity_type": "government",
+      "org": "City of Kokomo",
+      "categories": ["city-government", "legal"],
+      "tags": ["city attorney", "legal", "claims", "ordinance"],
+      "summary": "Municipal legal office for city-related legal matters.",
+      "contact": {
+        "phone_primary": "765-456-7440",
+        "email": "CityAttorney@cityofkokomo.org",
+        "address": "100 S Union St, Kokomo, IN 46901"
+      },
+      "links": [
+        {
+          "label": "Corporation Counsel",
+          "url": "https://www.cityofkokomo.org/departments/corporation_counsel.php",
+          "type": "info"
+        }
+      ],
+      "priority": 55
+    },
+    {
+      "id": "kokomo-utility-billing",
+      "name": "Utility Billing",
+      "entity_type": "utilities",
+      "org": "City of Kokomo",
+      "categories": ["utilities", "billing"],
+      "tags": ["utility bill", "pay bill", "water sewer bill", "water bill" ,"wastewater","utility bill issue"],
+      "summary": "Utility billing office for payments and account questions.",
+      "contact": {
+        "phone_primary": "765-456-7360",
+        "email": "utilitybilling@cityofkokomo.org"
+      },
+      "links": [
+        {
+          "label": "Pay Utility Bill",
+          "url": "https://www.cityofkokomo.org/residents/online_services_and_payments.php",
+          "type": "payment"
+        }
+      ],
+      "priority": 85
+    },
+    {
+      "id": "kokomo-wastewater-treatment",
+      "name": "Wastewater Treatment Plant",
+      "entity_type": "utilities",
+      "org": "City of Kokomo",
+      "categories": ["utilities", "wastewater"],
+      "tags": ["sewer", "wastewater", "overflow", "sewage", "wastewater treatment"],
+      "summary": "Wastewater treatment and sewer system contact.",
+      "contact": {
+        "phone_primary": "765-457-5509"
+      },
+      "links": [
+        {
+          "label": "Wastewater Services",
+          "url": "https://www.cityofkokomo.org/departments/wastewater_treatment/index.php",
+          "type": "info"
+        }
+      ],
+      "priority": 60
+    },
+    {
+      "id": "kokomo-engineering-traffic",
+      "name": "Engineering & Traffic",
+      "entity_type": "government",
+      "org": "City of Kokomo",
+      "categories": ["roads", "engineering"],
+      "tags": ["traffic", "engineering", "construction","road construction","stoplight","sidewalk","trails","curb","sidewalk"],
+      "summary": "Traffic engineering and city road project office.",
+      "contact": {
+        "phone_primary": "765-456-7400"
+      },
+      "links": [
+        {
+          "label": "Engineering & Traffic",
+          "url": "https://www.cityofkokomo.org/departments/engineering_and_traffic/index.php",
+          "type": "info"
+        }
+      ],
+      "priority": 65
+    },
+    {
+      "id": "kokomo-public-maintenance-refuse",
+      "name": "Public Maintenance & Refuse",
+      "entity_type": "government",
+      "org": "City of Kokomo",
+      "categories": ["trash", "recycling"],
+      "tags": ["trash", "recycling", "limb pickup", "snow removal","snow plow","trash pickup","garbage pickup", "tree limbs" ,"leaf collection","debris removal"],
+      "summary": "Trash, recycling, street maintenance, and snow removal.",
+      "contact": {
+        "phone_primary": "765-453-4030",
+        "email": "street@cityofkokomo.org"
+
+      },
+      "links": [
+        {
+          "label": "Public Maintenance & Refuse",
+          "url": "https://www.cityofkokomo.org/departments/public_maintenance_and_refuse/index.php",
+          "type": "info"
+        }
+      ],
+      "priority": 90
+    },
+    {
+      "id": "kokomo-pothole-reporting",
+      "name": "Pothole Reporting",
+      "entity_type": "government",
+      "org": "City of Kokomo",
+      "categories": ["roads", "report-issue"],
+      "tags": ["pothole", "street repair","pot hole in street"],
+      "summary": "Report potholes and street issues.",
+      "contact": {
+        "phone_primary": "765-456-7474",
+        "email": "street@cityofkokomo.org"
+      },
+      "links": [
+        {
+          "label": "Report a Pothole",
+          "url": "https://www.cityofkokomo.org/departments/public_maintenance_and_refuse/index.php",
+          "type": "form"
+        }
+      ],
+      "priority": 95
+    },
+    {
+      "id": "kokomo-police-non-emergency",
+      "name": "Kokomo Police (Non-Emergency)",
+      "entity_type": "law-enforcement",
+      "org": "Kokomo Police Department",
+      "categories": ["police", "non-emergency"],
+      "tags": ["police", "non emergency", "dispatch"],
+      "summary": "Non-emergency police dispatch. Emergencies call 911.",
+      "contact": {
+        "phone_primary": "765-457-1105"
+      },
+      "links": [
+        {
+          "label": "Police Department",
+          "url": "https://www.cityofkokomo.org/departments/police_department/",
+          "type": "info"
+        }
+      ],
+      "priority": 100
+    },
+    {
+      "id": "kokomo-police-tip-hotline",
+      "name": "Police Tip Hotline",
+      "entity_type": "law-enforcement",
+      "org": "Kokomo Police Department",
+      "categories": ["police", "tips"],
+      "tags": ["anonymous tip", "crime tip","police tip","inform the police"],
+      "summary": "Anonymous tip line for Kokomo Police.",
+      "contact": {
+    
+      },
+      "links": [
+        {
+          "label": "Submit a Tip",
+          "url": "https://www.cityofkokomo.org/departments/police_department/tip_411.php",
+          "type": "form"
+        }
+      ],
+      "priority": 60
+    },
+    {
+      "id": "kokomo-fire-department",
+      "name": "Kokomo Fire Department",
+      "entity_type": "government",
+      "org": "Kokomo Fire Department",
+      "categories": ["fire", "public-safety"],
+      "tags": ["fire department", "inspection", "fire safety"],
+      "summary": "Fire department administrative contact.",
+      "contact": {
+        "phone_primary": "765-457-2636",
+        "email": "firedept@cityofkokomo.org"
+      },
+      "links": [
+        {
+          "label": "Fire Department",
+          "url": "https://www.cityofkokomo.org/departments/fire_department/index.php",
+          "type": "info"
+        }
+      ],
+      "priority": 65
+    },
+    {
+      "id": "kokomo-parks-recreation",
+      "name": "Parks & Recreation Department",
+      "entity_type": "government",
+      "org": "City of Kokomo",
+      "categories": ["parks", "recreation"],
+      "tags": ["parks", "activities", "rent shelter","highland park","jackson morrow"],
+      "summary": "City parks, programs, and facility rentals.",
+      "contact": {
+        "email": "info@cityofkokomo.org"
+      },
+      "links": [
+        {
+          "label": "Parks & Recreation",
+          "url": "https://www.cityofkokomo.org/departments/parks_and_recreation_department.php",
+          "type": "info"
+        }
+      ],
+      "priority": 75
+    },
+    {
+      "id": "kokomo-permit-clerk",
+      "name": "Permit Clerk",
+      "entity_type": "government",
+      "org": "City of Kokomo",
+      "categories": ["permits", "building"],
+      "tags": ["permit status", "inspection"],
+      "summary": "Permit status and permit process questions.",
+      "contact": {
+        "phone_primary": "765-456-7362"
+      },
+      "links": [
+        {
+          "label": "Permit Information",
+          "url": "https://www.cityofkokomo.org/departments/inspection_services/building_permits.php",
+          "type": "info"
+        },
+        {
+          "label": "Permit Fees",
+          "url": "https://www.cityofkokomo.org/document_center/PERMIT%20SCHEDULE%20FEES%202025.pdf?t=202510090951030",
+          "type": "info"
+        },
+        {
+          "label": "Permit Application",
+          "url": "https://www.cityofkokomo.org/document_center/Building%20Permit%20FF%20.pdf?t=202106161009370",
+          "type": "info"
+        }
+
+      ],
+      "priority": 80
+    },
+    {
+      "id": "kokomo-cityline-trolley",
+      "name": "City-Line Trolley",
+      "entity_type": "transit",
+      "org": "City of Kokomo Transportation",
+      "categories": ["transit"],
+      "tags": ["bus", "trolley", "route", "schedule","where is my bus","bus schedule","trolley route"],
+      "summary": "Free public transit system for Kokomo.",
+      "contact": {
+        "phone_primary": "765-456-2078",
+        "email": "transportation@cityofkokomo.org"
+      },
+      "links": [
+        {
+          "label": "Trolley Routes & Schedules",
+          "url": "https://www.kokomompo.com/cityline-trolley/",
+          "type": "info"
+        },
+        {
+          "label": "Where Is My Bus?",
+          "url": "https://kokomo.mobilitat.com/public/map/index.shtml",
+          "type": "info"
+        }
+      ],
+      "priority": 75
+    },
+    {
+      "id": "khcpl-main",
+      "name": "Kokomo-Howard County Public Library (Main)",
+      "entity_type": "library",
+      "org": "KHCPL",
+      "categories": ["library"],
+      "tags": ["library", "books", "events","KHCPL","library book"],
+      "summary": "Main branch of the county public library.",
+      "contact": {
+        "phone_primary": "765-457-3242"
+      },
+      "links": [
+        {
+          "label": "Library Website",
+          "url": "https://www.khcpl.org",
+          "type": "info"
+        },
+         {
+          "label": "Search For A Book",
+          "url": "https://khcpl.wise.oclc.org/wise-apps/opac/branch/4000/catalog/search?qs=Search%20Our%20Catalog&scope=anything",
+          "type": "info"
+        }
+      ],
+      "priority": 65
+    },
+    {
+      "id": "howard-county-clerk",
+      "name": "Howard County Clerk",
+      "entity_type": "county",
+      "org": "Howard County Government",
+      "categories": ["courts", "records"],
+      "tags": ["court clerk", "pay ticket","speeding ticket","marriage license","judgement payment"],
+      "summary": "County clerk for court records and payments.",
+      "contact": {
+        "phone_primary": "765-456-2000"
+      },
+      "links": [
+        {
+          "label": "County Clerk",
+          "url": "https://www.in.gov/counties/howard/departments/clerk/",
+          "type": "info"
+        }
+      ],
+      "priority": 80
+    },
+    {
+      "id": "howard-county-records",
+      "name": "Howard County Vital Records",
+      "entity_type": "county",
+      "org": "Howard County Government",
+      "categories": ["health"],
+      "tags": ["vital records", "birth certificate", "death certificate", "genealogy"],
+      "summary": "Public health services for Howard County.",
+      "contact": {
+        "phone_primary": "765-456-2400",
+        "email": "vitalrecords@howardcountryin.gov"
+      },
+      "links": [
+        {
+          "label": "Vital Records Department",
+          "url": "https://www.in.gov/localhealth/howardcounty/vital-records/",
+          "type": "info"
+        }
+      ],
+      "priority": 70
+    },
+    {
+      "id": "kokomo-humane-animal-control",
+      "name": "Kokomo Humane Society",
+      "entity_type": "nonprofit",
+      "org": "Kokomo Humane Society",
+      "categories": ["animals"],
+      "tags": ["lost pet", "found pet", "animal control", "adopt pet", "cat","dog","animal shelter"],
+      "summary": "Lost/found pets and animal care services.",
+      "contact": {
+        "phone_primary": "765-452-6224"
+      },
+      "links": [
+        {
+          "label": "Humane Society",
+          "url": "https://kokomohumane.org",
+          "type": "info"
+        }
+      ],
+      "priority": 75
+    },
+    {
+      "id": "discount-tire",
+      "name": "Discount Tire",
+      "entity_type": "business",
+      "org": "Discount Tire",
+      "categories": ["business"],
+      "tags": ["flat tire", "buy new tires","tire repair","flat tire"],
+      "summary": "National chain for purchasing new tires or repairing old ones.",
+      "contact": {
+        "phone_primary": "765-868-3187"
+      },
+      "links": [
+        {
+          "label": "Discount Tire",
+          "url": "https://www.yelp.com/biz_redir?url=https%3A%2F%2Fwww.discounttire.com%2Fstore%2Fin%2Fkokomo%2Fs%2F1493%3Futm_source%3Dyelp%26utm_medium%3Dorganic%26utm_campaign%3DYelpBusLinkClick&cachebuster=1770756223&website_link_type=website&src_bizid=TMhYlSEaX3UCw8qqaxI8JA&s=254d381cb14dff0f6739999a94df580034acd2a410af1eed0c1625fc5fe9bd90",
+          "type": "info"
+        }
+      ],
+      "priority": 75
+    },
+    {
+    "id": "half-moon-brewery-kokomo",
+    "name": "Half Moon Restaurant and Brewery",
+    "entity_type": "business",
+    "categories": ["restaurant", "brewery", "bar"],
+    "tags": ["bbq", "brewery", "american food", "dinner", "craft beer","half moon","beer","wings","burger"],
+    "summary": "Popular local spot for slow-smoked BBQ, craft beers, and casual dining.",
+    "contact": {
+      "phone_primary": "765-455-2739",
+      "address": "4051 S Lafountain St, Kokomo, IN 46902"
+    },
+    "links": [
+      { "label": "Website", "url": "http://www.halfmoonbrewery.com", "type": "info" }
+    ]
+  },
+  {
+    "id": "sute-bbq-kokomo",
+    "name": "Sute Korean BBQ",
+    "entity_type": "business",
+    "categories": ["restaurant", "bbq"],
+    "tags": ["bbq", "korean food", "date night", "craft cocktails", "asian", "korean bbq"],
+    "summary": "Elevated BBQ and handcrafted drinks in a warm atmosphere.",
+    "contact": {
+      "phone_primary": "765-926-3062",
+      "address": "521 N Buckeye St, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "http://www.sutebbq.com", "type": "info" }
+    ]
+  },
+  {
+    "id": "the-foxes-trail-kokomo",
+    "name": "The Foxes Trail",
+    "entity_type": "business",
+    "categories": ["restaurant"],
+    "tags": ["american food", "steakhouse", "lunch", "dinner"],
+    "summary": "Well-liked local restaurant with classic American fare.",
+    "contact": {
+      "phone_primary": "765-450-7670",
+      "address": "305 S Main St, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.facebook.com/thefoxestrail/&ved=2ahUKEwjFlr3U6M-SAxU45ckDHRWzGTYQFnoECEoQAQ&usg=AOvVaw0WM_oG3dKSe2vCrwS48z-S", "type": "info" }
+    ]
+  },
+  {
+    "id": "kokomo-alehouse",
+    "name": "Kokomo Alehouse",
+    "entity_type": "business",
+    "categories": ["restaurant", "bar"],
+    "tags": ["gastropub", "beer", "burgers", "casual dining","drinks"],
+    "summary": "Gastropub with a variety of dining options and drinks.",
+    "contact": {
+      "phone_primary": "765-868-8230",
+      "address": "1134 Home Ave, Kokomo, IN 46902"
+    },
+    "links": []
+  },
+  {
+    "id": "mr-k-bbq-kokomo",
+    "name": "MR.K BBQ Kokomo",
+    "entity_type": "business",
+    "categories": ["restaurant", "bbq"],
+    "tags": ["barbecue", "lunch", "family dining","korean bbq","korean food"],
+    "summary": "Local Korean BBQ favorite with flavorful meats.",
+    "contact": {
+      "phone_primary": "765-614-2211",
+      "address": "1833 S Plate St, Kokomo, IN 46902"
+    },
+    "links": [
+      { "label": "Website", "url": "https://www.mrkbbqkokomo.com", "type": "info" }
+    ]
+  },
+  {
+    "id": "yolandas-place",
+    "name": "Yolanda's Place",
+    "entity_type": "business",
+    "categories": ["restaurant"],
+    "tags": ["american", "comfort food", "family dining", "dinner","soul food"],
+    "summary": "Highly-rated local soul food restaurant offering homestyle favorites.",
+    "contact": {
+      "phone_primary": "765-236-3900",
+      "address": "1245 S Seventeenth St, Kokomo, IN 46902"
+    },
+    "links": []
+  },
+  {
+    "id": "moes-river-room",
+    "name": "Moe's River Room",
+    "entity_type": "business",
+    "categories": ["bar", "restaurant"],
+    "tags": ["bar", "american food", "cocktails","dive bar"],
+    "summary": "Casual bar serving drinks and simple fare in a relaxed setting.",
+    "contact": {
+      "phone_primary": "765-450-8945",
+      "address": "150 S Reed Rd, Kokomo, IN 46901"
+    },
+    "links": []
+  },
+  {
+    "id": "missys-family-restaurant",
+    "name": "Missy's Family Restaurant",
+    "entity_type": "business",
+    "categories": ["restaurant"],
+    "tags": ["breakfast", "lunch", "family dining","american food"],
+    "summary": "Family diner known for breakfast classics and friendly service.",
+    "contact": {
+      "phone_primary": "765-450-1799",
+      "address": "4005 S Webster St, Kokomo, IN 46902"
+    },
+    "links": []
+  },
+  {
+    "id": "marble-the-steakhouse-kokomo",
+    "name": "Marble The Steakhouse",
+    "entity_type": "business",
+    "categories": ["restaurant", "steakhouse"],
+    "tags": ["steakhouse", "seafood", "dinner","fancy","drinks"],
+    "summary": "Upscale steakhouse with dinner and seafood options.",
+    "contact": {
+      "phone_primary": "765-450-8890",
+      "address": "500 N Buckeye St, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "https://www.marblethesteakhouse.com", "type": "info" }
+    ]
+  },
+  {
+    "id": "tokyo-cuisine-kokomo",
+    "name": "Tokyo Cuisine",
+    "entity_type": "business",
+    "categories": ["restaurant"],
+    "tags": ["sushi", "asian cuisine", "dinner","japanese","asian"],
+    "summary": "Highly-rated sushi and Asian dining spot in Kokomo.",
+    "contact": {
+      "phone_primary": "765-457-1017",
+      "address": "108 N Dixon Rd, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "http://tokyocuisinein.com/", "type": "info" }
+    ]
+  },
+  {
+    "id": "southern-smackerz-kokomo",
+    "name": "Southern Smackerz",
+    "entity_type": "business",
+    "categories": ["restaurant"],
+    "tags": ["southern food", "soul food", "takeout"],
+    "summary": "Casual eatery specializing in Southern and soul food dishes.",
+    "contact": {
+      "phone_primary": "765-416-2565",
+      "address": "1706 W Blvd, Kokomo, IN 46902"
+    },
+    "links": []
+  },
+  {
+    "id": "tortas-johann-mexican-grill",
+    "name": "Tortas Johann Mexican Grill",
+    "entity_type": "business",
+    "categories": ["restaurant", "mexican"],
+    "tags": ["mexican", "tortas", "authentic", "burritos","tacos","enchiladas"],
+    "summary": "Family-run Mexican grill serving tortas and traditional dishes.",
+    "contact": {
+      "phone_primary": "765-864-0108",
+      "address": "3704 S Lafountain St, Kokomo, IN 46902"
+    },
+    "links": []
+  },
+  {
+    "id": "wolfes-smokehouse-bbq",
+    "name": "Wolfe's Smokehouse BBQ",
+    "entity_type": "business",
+    "categories": ["restaurant"],
+    "tags": ["bbq", "smokehouse", "barbecue"],
+    "summary": "Highly rated smokehouse BBQ spot loved by locals.",
+    "contact": {
+      "phone_primary": "765-459-2058",
+      "address": "502 N Main St, Kokomo, IN 46901"
+    },
+    "links": []
+  },
+  {
+    "id": "brandons-burgers-kokomo",
+    "name": "Brandon's Burgers, Chicken, and More",
+    "entity_type": "business",
+    "categories": ["restaurant"],
+    "tags": ["burgers", "sandwiches", "casual","chicken","wings"],
+    "summary": "Local burger and sandwich spot with a loyal following.",
+    "contact": {
+      "phone_primary": "317-376-2403",
+      "address": "401 Kentucky Dr, Kokomo, IN 46902"
+    },
+    "links": [
+      { "label": "Website", "url": "https://www.brandonsburgers.biz", "type": "info" }
+    ]
+  },
+  {
+    "id": "community-howard-regional-health", 
+    "name": "St Vincent Hospital",
+    "entity_type": "business",
+    "categories": ["hospital", "medical center"],
+    "tags": ["hospital", "urgent care", "medical services"],
+    "summary": "Full-service medical center and community hospital serving Kokomo residents.",
+    "contact": {
+      "phone_primary": "765-452-5611",
+      "address": "1907 W Sycamore St, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "https://healthcare.ascension.org/locations/indiana/inasc/kokomo-ascension-st-vincent-kokomo", "type": "info" }
+    ]
+  },
+  {
+    "id": "community-howard-regional-health-hospital",
+    "name": "Community Howard Regional Hospital",
+    "entity_type": "business",
+    "categories": ["hospital"],
+    "tags": ["hospital", "emergency care", "surgery"],
+    "summary": "Regional hospital offering comprehensive medical and surgical care. :contentReference[oaicite:19]{index=19}",
+    "contact": {
+      "phone_primary": "765-776-8000",
+      "address": "3500 S Lafountain St, Kokomo, IN 46902"
+    },
+    "links": [
+      { "label": "Website", "url": "http://www.ecommunity.com/howard", "type": "info" }
+    ]
+  },
+  {
+    "id": "jefferson-road-animal-hospital",
+    "name": "Jefferson Road Animal Hospital",
+    "entity_type": "business",
+    "categories": ["veterinary", "pet care"],
+    "tags": ["veterinarian", "pet clinic", "animal care","vet","cat","dog"],
+    "summary": "Veterinary clinic providing veterinary and care services for pets.",
+    "contact": {
+      "phone_primary": "765-457-5521",
+      "address": "2605 W Jefferson St, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "https://thepetfixers.com/?utm_source=yelp&utm_medium=social", "type": "info" }
+    ]
+  },
+  {
+    "id": "kokomo-animal-hospital",
+    "name": "Kokomo Animal Hospital",
+    "entity_type": "business",
+    "categories": ["veterinary", "pet care","cat","dog"],
+    "tags": ["vet", "pet grooming", "boarding"],
+    "summary": "Full-service animal hospital serving Kokomo pets and families.",
+    "contact": {
+      "phone_primary": "765-453-1207",
+      "address": "409 Arnold Ct, Kokomo, IN 46902"
+    },
+    "links": [
+      { "label": "Website", "url": "https://www.kokomoanimalhospital.com/?utm_source=yelp&utm_medium=social", "type": "info" }
+    ]
+  },
+  {
+    "id": "jekyll-auto-repair",
+    "name": "The Noble Mechanic",
+    "entity_type": "business",
+    "categories": ["auto repair", "mechanic"],
+    "tags": ["oil change", "brake repair", "vehicle maintenance"],
+    "summary": "Trusted local auto repair shop offering full car maintenance and repair.",
+    "contact": {
+      "phone_primary": "765-452-6377",
+      "address": "1132 S Apperson Way, Kokomo, IN 46902"
+    },
+    "links": [
+      { "label": "Website", "url": "https://thenoblemechanic.com/kokomo/", "type": "info" }
+    ]
+  },
+  {
+    "id": "billys-auto-repair",
+    "name": "Billy's Auto Repair",
+    "entity_type": "business",
+    "categories": ["auto repair"],
+    "tags": ["auto repair", "engine service", "mechanic"],
+    "summary": "Long-standing local auto repair shop.",
+    "contact": {
+      "phone_primary": "765-450-5486",
+      "address": "1530 S Dixon Rd, Kokomo, IN 46902"
+    },
+    "links": []
+  },
+  {
+    "id": "aa-auto-body-inc",
+    "name": "AA Auto Body",
+    "entity_type": "business",
+    "categories": ["auto repair", "body shop"],
+    "tags": ["auto body", "collision repair", "painting"],
+    "summary": "Auto body and collision repair services.",
+    "contact": {
+      "phone_primary": "765-461-9091",
+      "address": "721 East Blvd, Kokomo, IN 46902"
+    },
+    "links": [
+      { "label": "Website", "url": "http://aaautobodyinc.com", "type": "info" }
+    ]
+  },
+  {
+    "id": "all-american-auto-service",
+    "name": "",
+    "entity_type": "business",
+    "categories": ["auto repair"],
+    "tags": ["mechanic", "brake repair", "engine service"],
+    "summary": "Auto repair and maintenance services for all makes and models.",
+    "contact": {
+      "phone_primary": "765-450-8485",
+      "address": "810 S Reed Rd, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "http://www.allamericanautoserv.com/", "type": "info" }
+    ]
+  },
+  {
+    "id": "family-auto-care-kokomo",
+    "name": "Family Auto Care",
+    "entity_type": "business",
+    "categories": ["auto repair"],
+    "tags": ["auto maintenance", "mechanic", "engine repair"],
+    "summary": "Reputable auto repair and tune-up service in Kokomo.",
+    "contact": {
+      "phone_primary": "765-459-7195",
+      "address": "1716 W Markland Ave, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "https://familyautocarekokomo.com/", "type": "info" }
+    ]
+  },
+  {
+    "id": "cfa-kokomo",
+    "name": "Chick-fil-A",
+    "entity_type": "business",
+    "categories": ["fast food"],
+    "tags": ["chicken","fast food","chick-fil-a","chicken sandwhich"],
+    "summary": "National chain famous for their chicken sandwhiches and signature sauce.",
+    "contact": {
+      "address": "1014 S Reed Rd, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "https://www.chick-fil-a.com/menu?utm_source=yext&utm_medium=link", "type": "info" }
+    ]
+  },
+  {
+    "id": "xfinity-kokomo",
+    "name": "Xfinity by Comcast",
+    "entity_type": "business",
+    "categories": ["cable"],
+    "tags": ["cable","internet out","tv out","wifi not working","tv not working","slow internet"],
+    "summary": "Cable and internet company providing TV and internet service to the area.",
+    "contact": {
+      "address": "1363 S Reed Rd Suit J05, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "https://www.xfinity.com/local/in/kokomo/1363-s--reed-road.html", "type": "info" }
+    ]
+  },
+  {
+    "id": "midas-auto-service",
+    "name": "Midas Auto Service",
+    "entity_type": "business",
+    "categories": ["auto repair"],
+    "tags": ["oil change", "brake repair", "tires"],
+    "summary": "National auto service provider for brakes, oil changes, and tires.",
+    "contact": {
+      "phone_primary": "765-416-3693",
+      "address": "1706 E Markland Ave, Kokomo, IN 46901"
+    },
+    "links": [
+      { "label": "Website", "url": "https://www.midas.com/store/in/kokomo/1706-east-markland-avenue-46901", "type": "info" }
+    ]
+  }
+  ]
+}

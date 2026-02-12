@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Kokomo.Info AI</title>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- MiniSearch -->
+    <script src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js"></script>
+  </head>
+
+  <body>
+    <header class="wrap">
+      <h1>Kokomo.Info AI</h1>
+      <p class="sub">Type what you need. We’ll route you to the right place.</p>
+
+      <div class="searchRow">
+        <input
+          id="q"
+          type="search"
+          placeholder="e.g. pay my water bill, report a pothole, trash pickup, school phone…"
+          autocomplete="off"
+        />
+        <button id="clearBtn" class="secondary" title="Clear">Clear</button>
+      </div>
+
+      <!-- NEW: assistant “chat-like” message area -->
+      <div id="assistant" class="assistant"></div>
+
+      <!-- Did you mean -->
+      <div id="suggestions" class="suggestions"></div>
+
+      <!-- Clarifier buttons appear here when ambiguous -->
+      <div id="clarifier" class="clarifier"></div>
+
+      <div class="chips" id="chips"></div>
+      <div class="meta" id="meta"></div>
+    </header>
+
+    <main class="wrap">
+      <div id="results"></div>
+    </main>
+
+    <footer class="wrap foot">
+      <small>Created by Parkhop AI</small>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
