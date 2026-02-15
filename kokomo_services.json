@@ -577,22 +577,6 @@
     ]
   },
   {
-    "id": "kokomo-high-school",
-    "name": "Kokomo High School",
-    "entity_type": "school",
-    "categories": ["school"],
-    "tags": ["school","high school","Kokomo High School","WildKats"],
-    "summary": "Kokomo High School is a four-year public high school in Kokomo, Indiana, USA.",
-    "contact": {
-      "phone_primary": "765-455-8040",
-      "address": "2501 S Berkley Rd, Kokomo, IN 46902"
-    },
-    
-    "links": [
-      { "label": "Website", "url": "https://khs.kokomoschools.com", "type": "info" }
-    ]
-  },
-  {
     "id": "meijer-kokomo",
     "name": "Meijer",
     "entity_type": "store",
