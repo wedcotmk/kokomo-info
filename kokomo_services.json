@@ -545,6 +545,165 @@
     ]
   },
   {
+    "id": "cone-palace-kokomo",
+    "name": "Cone Palace",
+    "entity_type": "business",
+    "categories": ["restaurant", "ice-cream"],
+    "tags": ["Cone Palace","milk shake", "ice cream","corn dogs","soda","fries","diner"],
+    "summary": "A local favorite ice cream shop offering ice cream, drinks, and diner style food at an affordable price.",
+    "contact": {
+      "phone_primary": "765-453-4470",
+      "address": "55 County Rd West 300 S, Kokomo, IN 46902"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.facebook.com/ConePalace/", "type": "info" }
+    ]
+  },
+  {
+    "id": "kokomo-high-school",
+    "name": "Kokomo High School",
+    "entity_type": "school",
+    "categories": ["school"],
+    "tags": ["school","high school","Kokomo High School","WildKats"],
+    "summary": "Kokomo High School is a four-year public high school in Kokomo, Indiana, USA.",
+    "contact": {
+      "phone_primary": "765-455-8040",
+      "address": "2501 S Berkley Rd, Kokomo, IN 46902"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://khs.kokomoschools.com", "type": "info" }
+    ]
+  },
+  {
+    "id": "kokomo-high-school",
+    "name": "Kokomo High School",
+    "entity_type": "school",
+    "categories": ["school"],
+    "tags": ["school","high school","Kokomo High School","WildKats"],
+    "summary": "Kokomo High School is a four-year public high school in Kokomo, Indiana, USA.",
+    "contact": {
+      "phone_primary": "765-455-8040",
+      "address": "2501 S Berkley Rd, Kokomo, IN 46902"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://khs.kokomoschools.com", "type": "info" }
+    ]
+  },
+  {
+    "id": "meijer-kokomo",
+    "name": "Meijer",
+    "entity_type": "store",
+    "categories": ["store"],
+    "tags": ["Meijer","store","grocery store","clothes","toys","groceries","garden center"],
+    "summary": "Chain retailer featuring brand-name groceries plus apparel, electronics & more.",
+    "contact": {
+      "phone_primary": "765-454-7800",
+      "address": "2301 E Markland Ave, Kokomo, IN 46901"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.meijer.com/shopping/store-locator/141.html", "type": "info" }
+    ]
+  },
+  {
+    "id": "sams-kokomo",
+    "name": "Sam's Club",
+    "entity_type": "store",
+    "categories": ["store"],
+    "tags": ["Sam's Club","store","grocery store","clothes","groceries","electronics","bulk"],
+    "summary": "Membership-only warehouse chain selling a variety of bulk grocery items, electronics & home goods.",
+    "contact": {
+      "phone_primary": "765-868-7025",
+      "address": "1917 E Markland Ave, Kokomo, IN 46901"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.samsclub.com/club/6424-kokomo-in", "type": "info" }
+    ]
+  },
+  {
+    "id": "meijer-kokomo",
+    "name": "Meijer",
+    "entity_type": "store",
+    "categories": ["store"],
+    "tags": ["Meijer","store","grocery store","clothes","toys","groceries","garden center"],
+    "summary": "Chain retailer featuring brand-name groceries plus apparel, electronics & more.",
+    "contact": {
+      "phone_primary": "765-454-7800",
+      "address": "2301 E Markland Ave, Kokomo, IN 46901"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.meijer.com/shopping/store-locator/141.html", "type": "info" }
+    ]
+  },
+  {
+    "id": "walmart-kokomo",
+    "name": "Walmart",
+    "entity_type": "store",
+    "categories": ["store"],
+    "tags": ["Walmart","store","grocery store","clothes","toys","groceries","garden center","auto care"],
+    "summary": "Large chain retailer offering groceries, home goods, clothes, auto care, garden center etc.",
+    "contact": {
+      "phone_primary": "765-456-3550",
+      "address": "1920 E Markland Ave, Kokomo, IN 46901"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.walmart.com/store/1962-kokomo-in", "type": "info" }
+    ]
+  },
+  {
+    "id": "dominos1-kokomo",
+    "name": "Domino's Washington Street",
+    "entity_type": "store",
+    "categories": ["store"],
+    "tags": ["pizza","pizza delivery","breadsticks","wings"],
+    "summary": "Delivery/carryout chain offering a wide range of pizzas & a variety of other dishes & sides.",
+    "contact": {
+      "phone_primary": "765-453-1911",
+      "address": "1920 E Markland Ave, Kokomo, IN 46901"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.dominos.com/en?utm_source=google&utm_medium=loclist&utm_campaign=localmaps", "type": "info" }
+    ]
+  },
+  {
+    "id": "travel-kokomo",
+    "name": "Magical Moments Vacations by MK",
+    "entity_type": "store",
+    "categories": ["store"],
+    "tags": ["travel agent","cruise line","book travel","Disney","Disney World","Universal","All Inclusive","hotel","trip planning"],
+    "summary": "A free travel agent service that will help you plan Disney, Cruise, Unviersal and other trips. Locally owned and run.",
+    "contact": {
+      "email":"meredith.kerner@mmvagent.com"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.magicalmomentsvacations.com/agents/meredith-kerner", "type": "info" }
+    ]
+  },
+   {
+    "id": "planet-fitness-kokomo",
+    "name": "Planet Fitness",
+    "entity_type": "business",
+    "categories": ["restaurant", "gym"],
+    "tags": ["Planet Fitness","gym","workout","treadmill","weights","tanning","massage"],
+    "summary": "A national chain gym offering exercise equipment, tanning, and massage beds.",
+    "contact": {
+      "phone_primary": "765-868-5000",
+      "address": "2160 E Markland Ave, Kokomo, IN 46901"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.planetfitness.com/gyms/kokomo/", "type": "info" }
+    ]
+  },
+  {
     "id": "tokyo-cuisine-kokomo",
     "name": "Tokyo Cuisine",
     "entity_type": "business",
