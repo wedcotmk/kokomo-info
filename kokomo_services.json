@@ -577,6 +577,134 @@
     ]
   },
   {
+    "id": "eastern-high-school",
+    "name": "Eastern High School",
+    "entity_type": "school",
+    "categories": ["school"],
+    "tags": ["school","high school","Eastern High School","Comets"],
+    "summary": "Eastern Junior-Senior High School is a public high school located in Greentown, Indiana serviced by the Eastern Howard School Corporation.",
+    "contact": {
+      "phone_primary": "765-628-3333",
+      "address": "421 S Harrison St, Greentown, IN 46936"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.eastern.k12.in.us", "type": "info" }
+    ]
+  },
+  {
+    "id": "western-high-school",
+    "name": "Western High School",
+    "entity_type": "school",
+    "categories": ["school"],
+    "tags": ["school","high school","Western High School","Panthers"],
+    "summary": "Western High School is a public high school located in Russiaville, Indiana.",
+    "contact": {
+      "phone_primary": "765-453-1101",
+      "address": "3794 E 300 S, Kokomo, IN 46902"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.taylor.k12.in.us", "type": "info" }
+    ]
+  },
+  {
+    "id": "nw-high-school",
+    "name": "Northwestern High School",
+    "entity_type": "school",
+    "categories": ["school"],
+    "tags": ["school","high school","Northwestern High School","Tigers"],
+    "summary": "Northwestern High School is a public high school located in Kokomo, Indiana.",
+    "contact": {
+      "phone_primary": "765-457-8101",
+      "address": "3431 County Rd N 400 W, Kokomo, IN 46901"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://nhs.nwsc.k12.in.us/o/northwestern-high-school", "type": "info" }
+    ]
+  },
+  {
+    "id": "wv-heat",
+    "name": "Weaver Family Heating and Air",
+    "entity_type": "business",
+    "categories": ["business"],
+    "tags": ["heating","air conditioning","hvac","furnace"],
+    "summary": "HVAC contractors, also specializing in furnace repairs, AC fixes and installations and heating services.",
+    "contact": {
+      "phone_primary": "765-300-4541",
+      "address": "6275 Lakewood Dr, Greentown, IN 46936"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://weaverfamilyheatingandair.com", "type": "info" }
+    ]
+  },
+  {
+    "id": "jeff-flowers",
+    "name": "Jefferson House",
+    "entity_type": "business",
+    "categories": ["business"],
+    "tags": ["flowers","home decor","floral arrangements","weddings","clothing"],
+    "summary": "Florist crafting arrangements and offering gifts, clothing, home decor, and an event space.",
+    "contact": {
+      "phone_primary": "765-452-8269",
+      "address": "4300 W 100 N, Kokomo, IN 46901"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://jeffersonhouseofflowers.com/?srsltid=AfmBOorU_tmoVEk05KHFw9mfjJlmB1RNafk6mksVONL9vTEuVmGLmxi3", "type": "info" }
+    ]
+  },
+  {
+    "id": "amc-kokomo",
+    "name": "AMC CLASSIC Kokomo 12",
+    "entity_type": "business",
+    "categories": ["business"],
+    "tags": ["movie","movie theater","3D movies","candy","popcorn"],
+    "summary": "Movie theater chain showing 3D films in a relaxed setting with an arcade and concessions.",
+    "contact": {
+      "phone_primary": "765-454-9060",
+      "address": "1530 E Blvd, Kokomo, IN 46902"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.amctheatres.com/movie-theatres/kokomo/amc-classic-kokomo-12", "type": "info" }
+    ]
+  },
+  {
+    "id": "f-kokomo",
+    "name": "F-Bomb Energy",
+    "entity_type": "business",
+    "categories": ["business"],
+    "tags": ["coffee","energy drinks","soda","tea","lattes","boba"],
+    "summary": "Relaxed coffee shop with friendly service whipped up coffee classics, plus lattes, frappes and boba teas.",
+    "contact": {
+      "phone_primary": "765-459-7101",
+      "address": "2108 E Markland Ave, Kokomo, IN 46901"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.fbombenergy.com/#ZL7XRUXON6YHVHHZUBX2CTDZ", "type": "info" }
+    ]
+  },
+  {
+    "id": "taylor-high-school",
+    "name": "Taylor High School",
+    "entity_type": "school",
+    "categories": ["school"],
+    "tags": ["school","high school","Taylor High School","Titans"],
+    "summary": "Taylor High School is a public high school located in Kokomo, Indiana.",
+    "contact": {
+      "phone_primary": "765-883-5541",
+      "address": "2600 County Rd South 600 W, Russiaville, IN 46979"
+    },
+    
+    "links": [
+      { "label": "Website", "url": "https://www.western.k12.in.us", "type": "info" }
+    ]
+  },
+  {
     "id": "usps",
     "name": "United States Postal Service",
     "entity_type": "store",
