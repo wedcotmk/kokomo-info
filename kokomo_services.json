@@ -577,19 +577,19 @@
     ]
   },
   {
-    "id": "meijer-kokomo",
-    "name": "Meijer",
+    "id": "kokomo-police-non-emergency",
+    "name": "United States Postal Service",
     "entity_type": "store",
     "categories": ["store"],
-    "tags": ["Meijer","store","grocery store","clothes","toys","groceries","garden center"],
-    "summary": "Chain retailer featuring brand-name groceries plus apparel, electronics & more.",
+    "tags": ["mail","post office","USPS","package","stop mail","lost mail","stolen package","delivery issue","passport"],
+    "summary": "Chain government agency providing mail delivery and other services, such as money orders.",
     "contact": {
-      "phone_primary": "765-454-7800",
+      "phone_primary": "800-275-8777",
       "address": "2301 E Markland Ave, Kokomo, IN 46901"
     },
     
     "links": [
-      { "label": "Website", "url": "https://www.meijer.com/shopping/store-locator/141.html", "type": "info" }
+      { "label": "Website", "url": "https://tools.usps.com/locations/details/1436194", "type": "info" }
     ]
   },
   {
