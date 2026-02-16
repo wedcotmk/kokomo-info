@@ -21,9 +21,8 @@ const QUICK_CHIPS = [
   "trash pickup",
   "police non emergency",
   "school phone",
-  "hours",
-  "directions",
-  "animal control"
+  "best burger",
+  "lost mail"
 ];
 
 /**
@@ -57,6 +56,13 @@ const INTENTS = [
   {
     id: "phone",
     match: ["phone", "call", "number", "contact"],
+    say: "Sounds like you need a **phone number / contact**.",
+    expand: ["phone", "call", "contact"],
+    boost: { name: 2.2, tags: 2.0, summary: 1.2, org: 1.1 }
+  },
+  {
+    id: "postal",
+    match: ["mail", "post office", "package", "stop mail"],
     say: "Sounds like you need a **phone number / contact**.",
     expand: ["phone", "call", "contact"],
     boost: { name: 2.2, tags: 2.0, summary: 1.2, org: 1.1 }

@@ -577,7 +577,7 @@
     ]
   },
   {
-    "id": "kokomo-police-non-emergency",
+    "id": "usps",
     "name": "United States Postal Service",
     "entity_type": "store",
     "categories": ["store"],
